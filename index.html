@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro de Usuário</title>
+</head>
+<body>
+    <h2>Lista de Cadastros</h2>
+    <div class = teste>
+        <form id = formulario>
+                <div class="container">
+                    <fieldset>
+                    <h1>Cadastro de Usuário</h1>
+                    <div class="cont">
+                        <label for="inome">Nome Completo*</label><br>
+                        <input type="text" name="inome" id="inome">
+                    </div>   
+                    <div class="cont">
+                        <label for="icpf">CPF*</label><br>
+                        <input type="number" name="icpf" id="icpf">
+                    
+                    </div>
+                    <div class="cont">  
+                        <label for="iidade">Idade*</label><br>
+                        <input type="number" name="iidade" id="iidade">
+                    </div>
+                    <div class="cont">    
+                        <label for="iemail">e-Mail*</label><br>
+                        <input type="email" name="iemail" id="iemail">
+                    </div> 
+                    <div class="cont">      
+                        <button class="custom-button">Cadastrar</button>
+                    </div>
+                </fieldset>     
+            </div>
+                
+        </form>
+        <table id="tabela">
+            
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>CPF</th>
+                    <th>Idade</th>
+                    <th>e-Mail</th>
+                    <th>Editar/Excluir</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
